@@ -1,4 +1,4 @@
-# Neural-Network-
+# Neural Network 
 
 
 A lightweight, NumPy-only deep learning inference engine built from scratch. This project implements the forward pass of a multi-layer perceptron (MLP) to demonstrate a ground-up understanding of neural network architecture, matrix multiplication, and activation functions.
