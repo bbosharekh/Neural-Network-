@@ -1,3 +1,4 @@
+import numpy as np
 class NeuralNetwork:
     def __init__(self,input_size=784, hidden_layers=[512, 512], output_size=10):
         self.input_size = input_size
@@ -24,7 +25,7 @@ class NeuralNetwork:
         # Applies the Rectified Linear Unit (ReLU) activation function. 
         return np.maximum(0, Z)
         
-   def forward(self, X: np.ndarray) -> np.ndarray:
+    def forward(self, X: np.ndarray) -> np.ndarray:
         # Store activations 
         current_activation = X
 
