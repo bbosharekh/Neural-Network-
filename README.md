@@ -18,7 +18,7 @@ While modern frameworks like PyTorch and TensorFlow abstract away the underlying
 
 ```python
 import numpy as np
-from network import NeuralNetwork
+from NeuralNetwork import NeuralNetwork
 
 # 1. Initialize a network (e.g., 784 inputs, two 512-node hidden layers, 10 outputs)
 nn = NeuralNetwork(input_size=784, hidden_layers=[512, 512], output_size=10)
